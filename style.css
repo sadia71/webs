@@ -1,0 +1,96 @@
+/* Google Font open sans nd poppin*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Global CSS*/
+ *{
+ 	margin: 0;
+ 	padding: 0;
+ }
+ body{
+ 	font-family: 'Poppins', sans-serif;
+ }
+ h1, h2, h3, h4, h5, h6{
+ 	font-family: 'Open Sans', sans-serif;
+ }
+ input{
+ 	font-family: 'Poppins', sans-serif;
+ }
+ a{
+ 	text-decoration: none;
+}
+ .login-page{
+ 	background: url(../jpg/background.jpg) no-repeat;
+ 	background-size: cover;
+ 	/*height: 100vh;*/
+ }
+ .login-circle{
+
+ 	
+  	background: rgba(255, 255, 255, 0.8);
+  	padding: 20px;
+    height: 365px;
+  	width: 300px;
+  	border:  2px #fff;
+  	margin: 100px auto 0;
+  	 	
+ }
+.avater img{
+	height: 78px;
+	width: 232px;
+	display:  block;
+	margin: 20px auto 25px;
+}
+.login-circle h2{
+	font-size: 17px;
+    font-weight: 600;
+}
+.login-form{
+	margin: 20px 0 0 0;
+}
+.form-control{
+	outline: none;
+	padding: 0 5px;
+	width: 96%;
+	height: 23px;
+	border: 1px solid #fff;
+}
+.login-form label{
+	font-weight: 500;
+	display: block;
+}
+.form_group{
+	margin-bottom: 5px;
+}
+.btn-log{	
+    text-transform: capitalize;
+    border: none;
+	background: #3CA5DD;
+    font-size: 90%;
+    font-weight: 500;
+    padding: 4px 30px;
+    color: #fff;
+    transition: 0.3s all ease-in-out;
+    display: block;
+    margin: 10px auto;
+
+}
+.btn-log:hover{
+	background: #0169B5;
+	cursor: pointer;
+
+}
+.action-link ul li{
+	list-style: none;
+	line-height: 22px;
+	font-weight: 400;
+	font-size: 14px;
+
+}
+.action-link ul li a{
+	color: #0169B5;
+	transition: 0.3s all ease-in-out;
+
+}
+.action-link ul li a:hover{
+	padding-left: 5px;
+}
